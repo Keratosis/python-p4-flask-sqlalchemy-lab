@@ -88,7 +88,7 @@ def enclosure_by_id(id):
      
     response_body=f'''
     <ul>ID:{enclosure.id}</ul>
-    <ul>Name:{enclosure.environment}</ul>
+    <ul>Environment:{enclosure.environment}</ul>
     <ul>Open_to_visitors:{enclosure.open_to_visitors}</ul>
     
     {''.join(animal_names)}
